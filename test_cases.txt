@@ -1,0 +1,83 @@
+TEST CASES – Bellman-Ford Algorithm
+
+==================================================
+
+Test Case 1 – Normal Weighted Graph
+
+Input:
+Vertices = 5
+Edges = 8
+Directed Graph
+
+Expected Output:
+Correct shortest distances from source vertex
+
+Status:
+PASS
+
+==================================================
+
+Test Case 2 – Graph with Negative Edge Weight
+
+Input:
+Graph containing negative edge weights
+
+Expected Output:
+Correct shortest path computation
+
+Status:
+PASS
+
+==================================================
+
+Test Case 3 – Negative Weight Cycle Detection
+
+Input:
+Graph containing a negative weight cycle
+
+Expected Output:
+Negative weight cycle detected successfully
+
+Status:
+PASS
+
+==================================================
+
+Test Case 4 – Directed Graph Execution
+
+Input:
+Directed weighted graph
+
+Expected Output:
+Correct shortest distances for directed graph
+
+Status:
+PASS
+
+==================================================
+
+Test Case 5 – Undirected Graph Execution
+
+Input:
+Undirected weighted graph
+
+Expected Output:
+Correct shortest distances for undirected graph
+
+Status:
+PASS
+
+==================================================
+
+Test Case 6 – Single Vertex Graph
+
+Input:
+Graph containing only one vertex
+
+Expected Output:
+Distance from source vertex = 0
+
+Status:
+PASS
+
+==================================================
